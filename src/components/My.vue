@@ -18,7 +18,8 @@
 
     </div>
 
-    <md-button id="confirm-button" class="md-raised md-primary" @click.native="sayHi">Set Pulp Fiction</md-button>
+    <router-link id="confirm-button" :to="{ name: 'Hello'}" class="md-theme-default md-button md-raised md-accent">Set Pulp Fiction</router-link>
+
   </div>
 </template>
 
